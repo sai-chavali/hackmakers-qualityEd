@@ -15,7 +15,7 @@ export class RatingComponent implements OnInit {
   }
 
   update(v: any) {
-    //console.log(v);
+    console.log(v);
   }
 
 }

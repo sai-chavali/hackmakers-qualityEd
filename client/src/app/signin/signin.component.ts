@@ -9,7 +9,7 @@ import {Subscription} from 'rxjs';
 })
 export class SigninComponent implements OnInit {
 
-  user: firebase.User = null;
+  user: any = null;
   subscription: Subscription;
 
   constructor(public authService: AuthService) { 

@@ -1,1 +1,576 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+@import '~katex/dist/katex.css';
+
+html,
+body {
+    height: 100%;
+}
+
+
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/assets/fonts/lato-normal.27bd77b.woff) format("woff")
+}
+
+// @font-face {
+//     font-family: Lato;
+//     font-style: italic;
+//     font-weight: 400;
+//     src: url(/assets/fonts/lato-normal-italic.f28f2d6.woff) format("woff")
+// }
+
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    src: url(/assets/fonts/lato-black.f80bda6.woff) format("woff")
+}
+
+// @font-face {
+//     font-family: Lato;
+//     font-style: italic;
+//     font-weight: 600;
+//     src: url(/assets/fonts/lato-black-italic.798eafd.woff) format("woff")
+// }
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #cfcfcf;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    box-shadow: inset 0px 0px 6px rgba(0, 0, 0, .2);
+    background-color: #f5f5f5;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #bbb;
+    &:hover {
+        background-color: #777;
+    }
+}
+
+.question {
+    //font-size: 1.3em;
+    .option {
+        input[type="checkbox"] {
+            height: 25px;
+            width: 25px;
+            margin: 10px;
+            cursor: pointer;
+            transform: translateY(4px);
+        }
+        label {
+            cursor: pointer;
+        }
+    }
+}
+
+.responsiveRapper {
+    position: relative;
+    margin: 0 auto;
+    //padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    iframe {
+        width: 90%;
+        height: 90%;
+        max-width: 640px;
+        max-height: 360px
+    }
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+    font-weight: bold;
+}
+
+.rightanswer {
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.thin {
+    font-weight: 200;
+}
+
+.margin-sm-rt {
+    margin-right: 6px;
+}
+
+.margin-md-rt {
+    margin-right: 8px;
+}
+
+.list-item {
+    border-bottom: 1px solid #ccc;
+    padding: 6px 0 !important;
+    .mat-list-item-content {
+        padding: 0 10px !important;
+    }
+    .itemscore {
+        width: 50px;
+        text-align: center;
+        margin: 0 4px !important;
+        color: #888;
+    }
+    .itemcount {
+        width: 40px;
+        text-align: left;
+        color: #888;
+    }
+    .itemicon {
+        color: #888;
+    }
+}
+
+.mat-form-field-prefix {
+    margin-right: 10px !important;
+    opacity: 0.5;
+}
+
+.mat-list-text {
+    flex-direction: row !important;
+    align-items: center;
+}
+
+.basetitle {
+    white-space: pre-wrap;
+    text-align: center;
+    font-weight: 300;
+    /*font-weight: bold;*/
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.help {
+    color: #999;
+    font-style: italic;
+    mat-icon {
+        transform: translateY(6px);
+        margin: 0 6px;
+    }
+    padding: 0 10px 0 0;
+}
+
+// .mat-sort-header-container {
+//   justify-content: center;
+// }
+.mat-chip-list-wrapper {
+    justify-content: center;
+}
+
+.mat-list-text {
+    padding: 0 !important;
+}
+
+.sidenav {
+    width: 330px;
+}
+
+.lessonbcrumb {
+    .mat-chip-list-wrapper {
+        flex-wrap: nowrap !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .sidenav {
+        width: 100%;
+    }
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.title {
+    //white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.mat-tab-label.mat-tab-disabled {
+    color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.app-stats {
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    .mat-expansion-panel-body {
+        padding: 0 !important;
+    }
+    .app-expansion {
+        border-radius: 0 !important;
+    }
+}
+
+.mat-drawer-content {
+    overflow: hidden !important;
+}
+
+
+.md {
+    h1 {
+        font-size: 2em;
+        margin: .67em 0
+    }
+    figcaption,
+    figure {
+        display: block
+    }
+    figure {
+        margin: 1em 40px
+    }
+    hr {
+        box-sizing: content-box;
+        height: 0;
+        overflow: visible
+    }
+    main {
+        display: block
+    }
+    pre {
+        font-family: monospace, monospace;
+        font-size: 1em
+    }
+    a {
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects
+    }
+    abbr[title] {
+        border-bottom: none;
+        text-decoration: underline;
+        text-decoration: underline dotted
+    }
+    b,
+    strong {
+        font-weight: inherit;
+        font-weight: bolder
+    }
+    code,
+    kbd,
+    samp {
+        font-family: monospace, monospace;
+        font-size: 1em
+    }
+    dfn {
+        font-style: italic
+    }
+    mark {
+        background-color: #ff0;
+        color: #000
+    }
+    small {
+        font-size: 80%
+    }
+    sub,
+    sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline
+    }
+    sub {
+        bottom: -.25em
+    }
+    sup {
+        top: -.5em
+    }
+    audio,
+    video {
+        display: inline-block
+    }
+    audio:not([controls]) {
+        display: none;
+        height: 0
+    }
+    img {
+        border-style: none
+    }
+    svg:not(:root) {
+        overflow: hidden
+    }
+    input {
+        overflow: visible
+    }
+    [type=checkbox],
+    [type=radio] {
+        box-sizing: border-box;
+        padding: 0
+    }
+    [type=number]::-webkit-inner-spin-button,
+    [type=number]::-webkit-outer-spin-button {
+        height: auto
+    }
+    [type=search] {
+        -webkit-appearance: textfield;
+        outline-offset: -2px
+    }
+    [type=search]::-webkit-search-cancel-button,
+    [type=search]::-webkit-search-decoration {
+        -webkit-appearance: none
+    }
+     ::-webkit-file-upload-button {
+        -webkit-appearance: button;
+        font: inherit
+    }
+    fieldset {
+        padding: .35em .75em .625em
+    }
+    legend {
+        box-sizing: border-box;
+        display: table;
+        max-width: 100%;
+        padding: 0;
+        color: inherit;
+        white-space: normal
+    }
+    progress {
+        display: inline-block;
+        vertical-align: baseline
+    }
+    textarea {
+        overflow: auto
+    }
+    details {
+        display: block
+    }
+    summary {
+        display: list-item
+    }
+    menu {
+        display: block
+    }
+    canvas {
+        display: inline-block
+    }
+    [hidden],
+    template {
+        display: none
+    }
+    color: rgba(0, 0, 0, .85);
+    font-size: 18px;
+    font-family: Lato,
+    Helvetica Neue,
+    Helvetica,
+    sans-serif;
+    font-variant-ligatures: common-ligatures;
+    line-height: 1.67;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: justify;
+
+    .audio {
+        padding: 2px;
+    }
+    blockquote,
+    dl,
+    ol,
+    p,
+    pre,
+    ul {
+        margin: 1.2em 0
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: rgba(0, 0, 0, .75);
+        margin: 1.8em 0;
+        line-height: 1.33
+    }
+    h1:after,
+    h2:after {
+        content: "";
+        display: block;
+        position: relative;
+        top: .33em;
+        border-bottom: 1px solid hsla(0, 0%, 50%, .33)
+    }
+    ol ol,
+    ol ul,
+    ul ol,
+    ul ul {
+        margin: 0
+    }
+    dt {
+        font-weight: 700
+    }
+    a {
+        color: #0c93e4;
+        text-decoration: underline;
+        text-decoration-skip: auto;
+    }
+    a:focus,
+    a:hover {
+        text-decoration: none
+    }
+    code,
+    pre,
+    samp {
+        font-family: Roboto Mono, Lucida Sans Typewriter, Lucida Console, monaco, Courrier, monospace;
+        font-size: .85em
+    }
+    code *,
+    pre *,
+    samp * {
+        font-size: inherit
+    }
+    blockquote {
+        color: rgba(0, 0, 0, .5);
+        padding-left: 1.5em;
+        border-left: 5px solid rgba(0, 0, 0, .1)
+    }
+    code {
+        background-color: rgba(0, 0, 0, .05);
+        border-radius: 3px;
+        padding: 2px 4px
+    }
+    hr {
+        border: 0;
+        border-top: 1px solid hsla(0, 0%, 50%, .33);
+        margin: 2em 0
+    }
+    pre>code {
+        background-color: rgba(0, 0, 0, .05);
+        display: block;
+        padding: .5em;
+        -webkit-text-size-adjust: none;
+        overflow-x: auto;
+        white-space: pre
+    }
+    .toc ul {
+        list-style-type: none;
+        padding-left: 20px
+    }
+    table {
+        background-color: transparent;
+        border-collapse: collapse;
+        border-spacing: 0
+    }
+    td,
+    th {
+        border-right: 1px solid #dcdcdc;
+        padding: 8px 12px
+    }
+    td:last-child,
+    th:last-child {
+        border-right: 0
+    }
+    td {
+        border-top: 1px solid #dcdcdc
+    }
+    mark {
+        background-color: #f8f840
+    }
+    kbd {
+        font-family: Lato, Helvetica Neue, Helvetica, sans-serif;
+        background-color: #fff;
+        border: 1px solid rgba(63, 63, 63, .25);
+        border-radius: 3px;
+        box-shadow: 0 1px 0 rgba(63, 63, 63, .25);
+        color: #333;
+        display: inline-block;
+        font-size: .8em;
+        margin: 0 .1em;
+        padding: .1em .6em;
+        white-space: nowrap
+    }
+    abbr[title] {
+        border-bottom: 1px dotted #777;
+        cursor: help
+    }
+    img {
+        max-width: 100%
+    }
+}
+
+.submit-btn {
+    margin-top: 20px !important;
+    width: 200px;
+}
+
+.action .mat-expansion-panel-body {
+    padding: 0 !important;
+}
+
+.page-container {
+    width: 100%;
+    margin: 0px auto;
+    max-width: 1366px;
+    margin-bottom: 30px;
+}
+
+
+.mat-paginator {
+    background-color: transparent !important;
+}
+
+.topmenu {
+    .mat-tab-header {
+        position: fixed !important;
+        z-index: 100000;
+        width: 100%;
+        background: #fafafa;
+        top: 0;
+    }
+}
+
+
+.fillblank {
+    height: 26px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    max-width: 200px;
+    margin: auto 8px;
+
+    &.correct {
+        color: green;
+    }
+    &.wrong {
+        color: red;
+    }
+}
+
+.header-less-tabs.mat-tab-group{
+    .mat-tab-header {
+        display: none !important;
+    }
+}

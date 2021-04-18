@@ -1,0 +1,66 @@
+.teaser {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: white;
+    top: 250px;
+}
+
+.typewriter {
+    font-size: 150%;
+    font-weight: bold;
+    color: lemonchiffon;
+}
+
+.jumbo {
+    font-size: 300%;
+    font-weight: 200;
+}
+
+.logo {
+    fill: white;
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.avatars {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 400px;
+    color: white;
+    h1 {
+        border: 1px dotted rgba(255, 255, 255, 0.5);
+        padding: 10px;
+        font-weight: 100;
+        opacity:0.6;
+    }
+}
+
+
+/* The animation code */
+
+@keyframes lift {
+    to {
+        transform: scale(0.8);
+    }
+}
+@keyframes unlift {
+    to {
+        transform: scale(0.7);
+    }
+}
+
+.avatar {
+    box-sizing: border-box;
+    transform: scale(0.7);
+    width: 200px;
+    cursor: pointer;
+    &:hover {
+        animation: lift 1s; 
+        animation-fill-mode: forwards;
+    }
+}

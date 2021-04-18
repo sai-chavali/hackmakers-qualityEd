@@ -1,7 +1,7 @@
 import {Injectable} from '@angular/core';
 import {BehaviorSubject, Observable} from 'rxjs';
 import {AngularFireAuth} from '@angular/fire/auth';
-import {auth} from 'firebase/app';
+import firebase from 'firebase/app';
 import {Router} from '@angular/router';
 import {HttpService} from './http.service';
 import {map} from 'rxjs/operators';
@@ -49,7 +49,7 @@ export class AuthService {
 
     // Sign in with Google
     GoogleAuth() {
-        return this.AuthLogin(new auth.GoogleAuthProvider());
+        return this.AuthLogin(new firebase.auth.GoogleAuthProvider());
     }
 
     // Auth logic to run auth providers
