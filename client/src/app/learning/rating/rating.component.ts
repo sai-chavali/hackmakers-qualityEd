@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { MatButtonToggleChange } from '@angular/material/button-toggle';
 
 @Component({
   selector: 'app-rating',
@@ -14,8 +15,8 @@ export class RatingComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  update(v: any) {
-    console.log(v);
+  update(v: MatButtonToggleChange) {
+    this.status = v.value;
   }
 
 }
