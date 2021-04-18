@@ -1,0 +1,16 @@
+<app-signin class="signin"></app-signin>
+<div class="chatbot">
+    <div>
+        <app-avatar #avatar avatarStyle='Circle' topType='LongHairMiaWallace' accessoriesType='Prescription02'
+            hairColor='BrownDark' facialHairType='Blank' clotheType='Hoodie' clotheColor='PastelBlue' eyeType='Happy'
+            eyebrowType='Default' mouthType='Smile' skinColor='Light'></app-avatar>
+
+        <button (click)="avatar.toggle_talk()">Talk</button>
+    </div>
+    <iframe class="m-w-100" src="https://www.smatbot.com/kya_backend/share?code=Personal_Assistant_7221"
+        style="border:0;" width="400" height="500"></iframe>
+</div>
+
+<div style="margin: 20px;">
+    <app-page name="page1"></app-page>
+</div>

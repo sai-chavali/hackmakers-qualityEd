@@ -5,7 +5,7 @@ const { handleDatabaseOperation } = require('../utilities/service-utils');
 
 /* GET user listing. */
 
-async function getUser(userId) {
+async function getUser(req, res, userId) {
   if (!userId) {
     return null;
   }
@@ -38,8 +38,8 @@ router.post('/login', async function (req, res, next) {
     })
     console.log(`nextUserAction`, nextUserAction);
     // Add all the fields in table
-    await connection.execute(`insert into lmsappuser.users VALUES(:1,:2,:3,:4)`, [userId, firstName, lastName, email], { autoCommit: true });
-    const user = await getUser(userId);
+    await connection.execute(`insert into lmsappuser.users(id,name,last_name, emailid) VALUES (:1,:2,:3,:4)`, [userId, firstName, lastName, email], { autoCommit: true });
+    const user = await getUser(req, res, userId);
     return res.send(200).json({ nextUserAction, user });
   });
 });

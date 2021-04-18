@@ -1,0 +1,8 @@
+<mat-button-toggle-group name="rating" aria-label="Rating" [value]="status" (change)="update($event)">
+    <mat-button-toggle value="yes" style="color: #00A837" [checked]="status=='yes'">
+        <mat-icon>thumb_up</mat-icon>
+    </mat-button-toggle>
+    <mat-button-toggle value="no" style="color: #BE1117" [checked]="status=='no'">
+        <mat-icon>thumb_down</mat-icon>
+    </mat-button-toggle>
+</mat-button-toggle-group>

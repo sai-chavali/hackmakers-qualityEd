@@ -1,0 +1,7 @@
+<button mat-button (click)="authService.signOut()" *ngIf="user; else login">Logout</button>
+
+<ng-template #login>
+    <button mat-button type="button" (click)="authService.GoogleAuth()">
+        Log in with Google
+    </button>
+</ng-template>

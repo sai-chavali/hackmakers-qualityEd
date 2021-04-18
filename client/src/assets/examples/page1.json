@@ -1,0 +1,131 @@
+{
+    "title": "Foo Bar",
+    "lang": "en-us",
+    "content": [
+        {
+            "title": "Introduction",
+            "type": "default",
+            "content": [
+                {
+                    "md": "Lorem ipsum dolor sit amet, **consectetur** adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint [occaecat cupidatat](https://example.com) non proident, *sunt* in culpa qui officia deserunt mollit anim id est laborum.",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "authors": ["Ravi", "Harry"],
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "blah blah blah",
+                    "liked": "none",
+                    "difficulty":"Medium",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "blah blah blah",
+                    "liked": "no",
+                    "accessed": "April 18 2021 7:50 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Intermediate",
+                    "bloomslevel":"Understand"
+                }
+            ]
+        },
+        {
+            "title": "Definition",
+            "type": "default",
+            "content": [
+                {
+                    "md": "blah blah blah",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "blah blah blah",
+                    "liked": "none",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "blah blah blah",
+                    "liked": "no",
+                    "accessed": "April 18 2021 7:50 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                }
+            ]
+        },
+        {
+            "title": "Practice Questions",
+            "type": "mcq",
+            "content": [
+                {
+                    "md": "What is the capital of India?\n\n* Delhi\n* Mumbai\n*Kolkata\n* Chennai",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "What is the capital of India?\n\n* **Delhi**\n* Mumbai\n*Kolkata\n* Chennai",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "What is the capital of India?\n\n* **Delhi**\n* Mumbai\n*Kolkata\n* Chennai",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "type": "default",
+            "content": [
+                {
+                    "md": "[Video](https://www.youtube.com/watch?v=rfscVS0vtbw)",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "[Video](https://www.youtube.com/watch?v=VwVg9jCtqaU)",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                }
+            ]
+        },
+        {
+            "title": "Recommended Courses",
+            "type": "default",
+            "content": [
+                {
+                    "md": "[![Course01](assets/images/course01.png)](https://www.coursera.org/specializations/python)",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                }
+            ]
+        }
+    ]
+}

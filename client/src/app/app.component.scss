@@ -1,0 +1,10 @@
+.chatbot {
+    display: grid;
+    position: static;
+    grid-template-columns: 1fr 1fr;
+}
+
+iframe{
+    grid-column-end: -1;
+    justify-self: end;
+}
