@@ -1,0 +1,54 @@
+<div class="container" [ngClass]="{'fullscreen':fullscreen}">
+    <div #toolbar class="toolbar" fxLayout="row wrap">
+        <a class="tool" matTooltip="Help" rel="noopener" mat-icon-button
+            href="https://www.markdownguide.org/basic-syntax/" target="_">
+            <mat-icon>help</mat-icon>
+        </a>
+        <button [disabled]="viewmd" class="tool" matTooltip="Bold" mat-icon-button (click)="encloseby('**')">
+            <mat-icon>format_bold</mat-icon>
+        </button>
+        <button [disabled]="viewmd" class="tool" matTooltip="Italic" mat-icon-button (click)="encloseby('*')">
+            <mat-icon>format_italic</mat-icon>
+        </button>
+        <button [disabled]="viewmd" class="tool" matTooltip="Bulleted list" mat-icon-button (click)="startlinesby('*')">
+            <mat-icon>format_list_bulleted</mat-icon>
+        </button>
+        <button [disabled]="viewmd" class="tool" matTooltip="Numberd list" mat-icon-button (click)="numberlines()">
+            <mat-icon>format_list_numbered</mat-icon>
+        </button>
+        <button [disabled]="viewmd" class="tool" matTooltip="Text format" mat-icon-button
+            (click)="startcurrentlineby('# ')">
+            <mat-icon>text_fields</mat-icon>
+        </button>
+
+        <button [disabled]="viewmd" class="tool" matTooltip="Undo" mat-icon-button (click)="undo()"
+            [disabled]="hmark==0">
+            <mat-icon>undo</mat-icon>
+        </button>
+        <button [disabled]="viewmd" class="tool" matTooltip="Redo" mat-icon-button (click)="redo()"
+            [disabled]="hmark==history.length-1">
+            <mat-icon>redo</mat-icon>
+        </button>
+        <button class="tool" matTooltip="Toggle Fullscreen" *ngIf="enablefullscreen"
+            [title]="fullscreen?'Exit fullscreen' : 'Fullscreen'" mat-icon-button (click)="toggleFullscreen()">
+            <mat-icon *ngIf="fullscreen">fullscreen_exit</mat-icon>
+            <mat-icon *ngIf="!fullscreen">fullscreen</mat-icon>
+        </button>
+        <span class="spacer"></span>
+        <button mat-icon-button *ngIf="value" class="viewformatted" (click)="viewmd=!viewmd">
+            <mat-icon *ngIf="!viewmd" matTooltip="View Formatted Message">visibility</mat-icon>
+            <mat-icon *ngIf="viewmd" matTooltip="Edit Message">edit</mat-icon>
+        </button>
+    </div>
+
+    <mat-form-field [ngClass]="{'editor':true, 'hidden':viewmd}" appearance="outline">
+        <mat-label>{{placeholder}}</mat-label>
+        <textarea #textarea [ngClass]="{'large':large}" matInput  [placeholder]="placeholder"
+            [(ngModel)]="value" (keyup)="keyup($event)" (input)="change()"></textarea>
+    </mat-form-field>
+    
+
+    <div *ngIf="viewmd" class="editor">
+        <div [ngClass]="{'md':true, 'large':large}" [innerHTML]="value | marked:viewas | safeHtml"></div>
+    </div>
+</div>

@@ -12,6 +12,10 @@
                 (click)="selectedindex=selectedindex+1" mat-icon-button>
                 <mat-icon>arrow_forward_ios</mat-icon>
             </button>
+            <button class="button" matTooltip="Share your own understanding"
+                (click)="selectedindex=content.content.length" mat-icon-button>
+                <mat-icon>cloud_upload</mat-icon>
+            </button>
         </div>
     </div>
     <mat-tab-group class="header-less-tabs" mat-align-tabs="center" [(selectedIndex)]="selectedindex">
@@ -20,9 +24,22 @@
                 <div class="md" [innerHTML]="tab.md | marked:content.type | safeHtml">
                 </div>
                 <app-rating class="meta" [status]="tab.liked"></app-rating>
-                <span class="meta">accessed: {{tab.accessed | date:'medium'}}</span>
-                <span class="meta">authors: {{tab.authors}}</span>
+                <span *ngIf="tab.accessed"><span class="meta">accessed:</span><span class="value">{{tab.accessed |
+                        date:'medium'}}</span></span>
+                <span *ngIf="tab.authors"><span class="meta">authors:</span><span
+                        class="value">{{tab.authors}}</span></span>
+                <span *ngIf="tab.difficulty"><span class="meta">difficulty:</span><span
+                        class="value">{{tab.difficulty}}</span></span>
+                <span *ngIf="tab.level"><span class="meta">level:</span><span class="value">{{tab.level}}</span></span>
             </div>
         </mat-tab>
+        <mat-tab>
+            <app-markdown-input class="form-element" [imageupload]="true" [large]="true"
+                [viewas]="content.type"
+                placeholder="Share with the world your best"
+                [value]="markdown" (onchange)="markdown=$event">
+            </app-markdown-input>
+        </mat-tab>
+
     </mat-tab-group>
 </div>
