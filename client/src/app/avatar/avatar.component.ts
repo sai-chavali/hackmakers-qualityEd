@@ -11,7 +11,7 @@ import AvatarComponent, { Props } from "avataaars";
 })
 
 export class AvataarComponent implements OnChanges, AfterViewInit, OnDestroy {
-  @ViewChild("container", { static: false }) containerRef !: ElementRef;
+  @ViewChild("container") containerRef !: ElementRef;
   @Input() avatarStyle: string = 'Circle';
   @Input() topType: string = 'LongHairMiaWallace';
   @Input() accessoriesType: string = 'Prescription02';
