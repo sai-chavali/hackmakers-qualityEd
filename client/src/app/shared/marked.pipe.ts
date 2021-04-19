@@ -24,7 +24,7 @@ export class MarkedPipe implements PipeTransform {
     //console.log(text);
     let re = /(^|\s)\$(.*?)\$(\s|$)/gm;
     return text.replace(re, (a, b, c, d) => {
-      //console.log(a, b, c, d);
+      console.log(a, b, c, d);
       return `${b}${renderToString(c)}${d}`;
     })
   }

@@ -1,0 +1,115 @@
+{
+    "title": "Binary Tree",
+    "lang": "en-us",
+    "content": [
+        {
+            "title": "Introduction",
+            "type": "default",
+            "content": [
+                {
+                    "md": "A tree whose elements have at most $2$ children is called a binary tree. Since each element in a binary tree can have only $2$ children, we typically name them the left and right child",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "authors": ["Ravi", "Harry"],
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "The Binary tree means that the node can have maximum two children. Here, binary name itself suggests that 'two'; therefore, each node can have either $0$, $1$ or $2$ children.",
+                    "liked": "none",
+                    "difficulty":"Medium",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "a binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child. A recursive definition using just set theory notions is that a (non-empty) binary tree is a tuple (L, S, R), where L and R are binary trees or the empty set and S is a singleton set containing the root",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 7:50 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Intermediate",
+                    "bloomslevel":"Understand"
+                }
+            ]
+        },
+        {
+            "title": "Properties",
+            "type": "default",
+            "content": [
+                {
+                    "md": "- The maximum number of nodes at level $l$ will be $2^{l-1}$ . Here level is the number of nodes on path from root to the node, including the root itself. We are considering the level of root is $1$.\n - Maximum number of nodes present in binary tree of height $h$ is $2^h−1$ . Here height is the max number of nodes on root to leaf path. Here we are considering height of a tree with one node is $1$.\n - In a binary tree with n nodes, minimum possible height or minimum number of levels are $log_2{n+1}$ . If we consider that the height of leaf node is considered as $0$, then the formula will be $log_2(n+1)−1$ \n - A binary tree with ‘L’ leaves has at least $log_2{L+1}$ number of levels If a binary tree has $0$ or $2$ children, then number of leaf nodes are always one more than nodes with two children.",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "-   At each level of $i$, the maximum number of nodes is $2^i$.\n -   The height of the tree is defined as the longest path from the root node to the leaf node. The tree which is shown above has a height equal to 3. Therefore, the maximum number of nodes at height $3$ is equal to $(1+2+4+8) = 15$. In general, the maximum number of nodes possible at height h is (2^0^  + 2^1^  + 2^2^+….2^h^) = 2^h+1^  -1.\n -   The minimum number of nodes possible at height $h$ is equal to  **$h+1$**.\n -   If the number of nodes is minimum, then the height of the tree would be maximum. Conversely, if the number of nodes is maximum, then the height of the tree would be minimum.",
+                    "liked": "Yes",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                }
+            ]
+        },
+        {
+            "title": "Practice Questions",
+            "type": "mcq",
+            "content": [
+                {
+                    "md": "the number of edges from the root to the node is called __________ of the tree.\n - Height\n - Depth\n - Length\n - Width",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "In a full binary tree if number of internal nodes is I, then number of leaves L are?\n - L = 2*I\n - L = I + 1\n - L = I – 1\n - L = 2*I – 1",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": " In a full binary tree if there are L leaves, then total number of nodes N are?\n -  N = 2*L\n -  N = L + 1\n -  N = L – 1\n -  N = 2*L – 1",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "type": "default",
+            "content": [
+                {
+                    "md": "[Video](https://www.youtube.com/watch?v=o0mjM__fuLI)",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                }
+            ]
+        },
+        {
+            "title": "Recommended Courses",
+            "type": "default",
+            "content": [
+                {
+                    "md": "[![Course01](assets/images/course01.png)](https://www.coursera.org/learn/data-structures)",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                }
+            ]
+        }
+    ]
+}

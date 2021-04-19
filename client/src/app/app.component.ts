@@ -87,6 +87,7 @@ export class AppComponent implements AfterViewInit, OnDestroy {
         event.preventDefault();
         if(event.target.hostname == environment.domain) this.router.navigateByUrl(event.target.pathname);
         //TODO: change later when bot is updated
+        else if (event.target.hostname=="hamsa.com") this.router.navigateByUrl(event.target.pathname);
         else this.router.navigateByUrl(event.target.href);
         return false;
       }

@@ -10,6 +10,9 @@ import {MatCardModule} from '@angular/material/card';
 import { LeaderboardComponent } from '../leaderboard/leaderboard.component';
 import { UserInfoComponent } from '../user-info/user-info.component';
 import { GravatorComponent } from '../gravator/gravator.component';
+import { MaterialComponentsModule } from '../material-components.module';
+import { RouterModule } from '@angular/router';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -26,7 +29,10 @@ import { GravatorComponent } from '../gravator/gravator.component';
     CommonModule,
     MatTabsModule,
     MatCardModule,
-    DashboardRoutingModule
+    DashboardRoutingModule,
+    MaterialComponentsModule,
+    RouterModule,
+    SharedModule
   ]
 })
 export class DashboardModule { }
