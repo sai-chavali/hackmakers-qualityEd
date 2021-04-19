@@ -1,0 +1,34 @@
+.profileContainer {
+    display: grid;
+    padding: 1rem 0;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: auto;
+    margin-top: 1.5em;
+  }
+  
+  .courseStatHighlights {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, auto));
+    grid-column-gap: 2em;
+    margin-right: 2em;
+    place-content: center;
+    justify-content: right;
+  }
+  .userDetails {
+    display: flex;
+    align-items: center;
+  }
+  .gravatar {
+    width: 100px;
+    height: 90px;
+    justify-content: center;
+  }
+  
+  .gravatar-title {
+    width: 500px;
+    padding: 10px;
+    justify-self: center;
+    align-self: center;
+    height: 80px;
+  }
+  

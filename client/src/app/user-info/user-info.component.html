@@ -1,1 +1,11 @@
-<p>user-info works!</p>
+<div class="profileContainer" *ngIf="userData$ | async as userData;">
+    <div class="userDetails">
+        <img src="https://lh3.googleusercontent.com/a-/AOh14GjVb_l8YXWMRyfV-GdqKfQ1_H6QXHsi9mkT0kjZ=s96-c" style="border-radius: 50%;" />
+        <h1>{{userData.NAME}}</h1>
+    </div>
+    <div class="courseStatHighlights">
+        <app-gravator [description]="'Courses Taken'" [value]="'5'"></app-gravator>
+        <app-gravator [description]="'Board Stand'" [value]="'3'" matTooltip="Board stand is refreshed every 10m">
+        </app-gravator>
+    </div>
+</div>

@@ -6,8 +6,10 @@ import { DashboardComponent } from './dashboard.component';
 import { CoursesTakenComponent } from '../courses-taken/courses-taken.component';
 import { CourseSuggestionsComponent } from '../course-suggestions/course-suggestions.component';
 import { StatsComponent } from '../stats/stats.component';
+import {MatCardModule} from '@angular/material/card';
 import { LeaderboardComponent } from '../leaderboard/leaderboard.component';
 import { UserInfoComponent } from '../user-info/user-info.component';
+import { GravatorComponent } from '../gravator/gravator.component';
 
 
 @NgModule({
@@ -17,11 +19,13 @@ import { UserInfoComponent } from '../user-info/user-info.component';
     CourseSuggestionsComponent,
     StatsComponent,
     LeaderboardComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    GravatorComponent
   ],
   imports: [
     CommonModule,
     MatTabsModule,
+    MatCardModule,
     DashboardRoutingModule
   ]
 })
