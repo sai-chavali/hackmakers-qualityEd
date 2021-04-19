@@ -86,7 +86,8 @@ export class AppComponent implements AfterViewInit, OnDestroy {
       if (event.target instanceof HTMLAnchorElement) {
         event.preventDefault();
         if(event.target.hostname == environment.domain) this.router.navigateByUrl(event.target.pathname);
-        else this.router.navigateByUrl(event.target.href);
+        //TODO: change later when bot is updated
+        else this.router.navigateByUrl("lesson/page1"); // this.router.navigateByUrl(event.target.href);
         return false;
       }
     })
