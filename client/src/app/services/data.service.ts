@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { Page } from './page';
-import { AvatarType } from '../avatar/avatartype';
+import { AvatarType } from '../shared/avatar/avatartype';
 import { map } from 'rxjs/operators'
 
 @Injectable({

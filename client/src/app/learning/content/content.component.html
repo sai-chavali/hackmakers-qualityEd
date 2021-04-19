@@ -23,6 +23,7 @@
             <div class="tab">
                 <div class="md" [innerHTML]="tab.md | marked:content.type | safeHtml">
                 </div>
+                <button mat-raised-button color="primary" *ngIf="content.type == 'mcq'">Submit</button>
                 <app-rating class="meta" [status]="tab.liked"></app-rating>
                 <span *ngIf="tab.accessed"><span class="meta">accessed:</span><span class="value">{{tab.accessed |
                         date:'medium'}}</span></span>
@@ -36,9 +37,10 @@
         <mat-tab>
             <app-markdown-input class="form-element" [imageupload]="true" [large]="true"
                 [viewas]="content.type"
-                placeholder="Share with the world your best"
+                placeholder="Write your own understanding"
                 [value]="markdown" (onchange)="markdown=$event">
             </app-markdown-input>
+            <button mat-raised-button color="primary" [disabled]="!markdown">Submit</button>
         </mat-tab>
 
     </mat-tab-group>

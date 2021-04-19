@@ -1,6 +1,6 @@
 import { AfterViewInit, Component, ElementRef, OnDestroy, ViewChild } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { AvatarType } from './avatar/avatartype';
+import { AvatarType } from './shared/avatar/avatartype';
 import { DataService } from './services/data.service';
 import { loadbot, clickcatcher } from '../assets/js/botloader';
 import { environment } from 'src/environments/environment';

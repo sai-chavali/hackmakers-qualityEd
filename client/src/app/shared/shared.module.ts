@@ -7,6 +7,8 @@ import { MaterialComponentsModule } from '../material-components.module';
 import { FormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MarkdownInputComponent } from './markdown-input/markdown-input.component';
+import { MarkdownActionDialog } from './markdown-action/markdown-action.component';
+import { AvataarComponent } from './avatar/avatar.component';
 
 
 
@@ -15,7 +17,9 @@ import { MarkdownInputComponent } from './markdown-input/markdown-input.componen
     MarkedPipe,
     HilightPipe,
     SafeHtmlPipe,
-    MarkdownInputComponent
+    MarkdownInputComponent,
+    MarkdownActionDialog,
+    AvataarComponent
   ],
   imports: [
     CommonModule,
@@ -27,7 +31,9 @@ import { MarkdownInputComponent } from './markdown-input/markdown-input.componen
     MarkedPipe,
     HilightPipe,
     SafeHtmlPipe,
-    MarkdownInputComponent
+    MarkdownInputComponent,
+    MarkdownActionDialog,
+    AvataarComponent
   ]
 })
 export class SharedModule { }
