@@ -3,9 +3,16 @@ h1 {
 }
 
 .spacer {
-    flex: 1 1 auto;  
+    flex: 1 1 auto;
 }
 
-.menubtn{
+.menubtn {
     margin: 6px;
+}
+
+.avatar {
+    transform: scale(0.2);
+    width: 250px;
+    transform-origin: right center;
+    margin-left: -190px;
 }

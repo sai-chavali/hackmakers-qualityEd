@@ -2,7 +2,7 @@ import { Component, ElementRef, HostListener } from '@angular/core';
 import { IParticlesProps } from 'ng-particles';
 import { Observable } from 'rxjs';
 import type { Container, Main } from 'tsparticles';
-import { AvatarType } from '../avatar/avatartype';
+import { AvatarType } from '../shared/avatar/avatartype';
 import { DataService } from '../services/data.service';
 
 @Component({

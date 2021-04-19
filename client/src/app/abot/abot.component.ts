@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { AvatarType } from '../avatar/avatartype';
+import { AvatarType } from '../shared/avatar/avatartype';
 import { DataService } from '../services/data.service';
 
 @Component({

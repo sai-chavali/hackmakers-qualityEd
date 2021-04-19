@@ -19,7 +19,7 @@ import { SpinnerComponent } from './spinner/spinner.component';
 import { SigninComponent } from './signin/signin.component';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import {MatButtonModule} from '@angular/material/button';
-import { AvataarComponent } from './avatar/avatar.component';
+import { AvataarComponent } from './shared/avatar/avatar.component';
 import { HomeComponent } from './home/home.component';
 import { AngularTypewriterEffectModule } from 'angular-typewriter-effect';
 import { NgParticlesModule } from 'ng-particles';
@@ -36,7 +36,6 @@ import { AbotComponent } from './abot/abot.component';
     AppComponent,
     SpinnerComponent,
     SigninComponent,
-    AvataarComponent,
     HomeComponent,
     ProfileComponent,
     NavbarComponent,

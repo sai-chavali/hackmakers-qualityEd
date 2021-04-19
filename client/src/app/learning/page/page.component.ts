@@ -3,6 +3,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 import { take } from 'rxjs/operators';
+import { AvatarType } from 'src/app/shared/avatar/avatartype';
 import { DataService } from 'src/app/services/data.service';
 import { Page } from 'src/app/services/page';
 import { MarkdownActionDialog } from 'src/app/shared/markdown-action/markdown-action.component';
@@ -15,7 +16,9 @@ import { MarkdownActionDialog } from 'src/app/shared/markdown-action/markdown-ac
 export class PageComponent implements OnInit {
   name!: string;
   public page$!: Observable<Page>;
+  currentavatar$: Observable<AvatarType>;
   constructor(private dataService: DataService, private route: ActivatedRoute, private dialog: MatDialog) {
+    this.currentavatar$ = this.dataService.avatar.asObservable();
   }
 
   ngOnInit(): void {
