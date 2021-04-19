@@ -1,0 +1,131 @@
+{
+    "title": "एम एस एक्‍सेल",
+    "lang": "हिंदी ",
+    "content": [
+        {
+            "title": "एम एस एक्सेल का परिचय",
+            "type": "default",
+            "content": [
+                {
+                    "md": "एम एस ऑफिस के अंतर्गत दिया गया एम एस एक्सेल एक ऑफिसियल प्रोग्राम है। इसके अंतर्गत वर्कशीट बनाने का कार्य किया जाता है तथा बनाये गए वर्कशीट पर डाटा एंट्री कर सकते है। यह एक मैथेमेटिकल प्रोग्राम है। जिसके अंतर्गत ऑफिस में होने वाले कार्यो को आसानी से किया  जा सकता  है। शुरू -शुरू  में यह प्रोग्राम टूल्स के अंतर्गत चलाया जाता था। जिसमे सिमित सुविधाएं दी गई थी। लेकिन अब विंडोज के वातावरण में चलाया जाता है। इसके वर्कशीट को इलेक्ट्रॉनिक स्प्लिट भी कहते है। इसमें बनाई जाने वाली फाइल का एक्सटेंशन नाम .xls होता है।",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "authors": ["रवी ", "हरी "],
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "MS Excel का पूरा नाम Microsoft Excel है और इसे मुख्य रूप से Excel के नाम से भी जानते है. ये एक स्प्रेडशीड प्रोग्राम है जो Microsoft Office suite के अंतर्गत आने वाले एप्लीकेशन में से एक एप्लीकेशन है.माइक्रोसॉफ्ट द्वारा बनाया गया एक कमर्शियल स्प्रेडशीट एप्लीकेशन है. इसका इस्तेमाल बेसिक कैलकुलेशन, ग्राफ़िक टूल, पाइवोट टूल, पाइवोट टेबल, और मैक्रोस बनाने के लिए किया जाता है. एक्सेल में दूसरी एप्लीकेशन के जैसी ही spreadsheet बनाने के लिए बेसिक feature उपलब्ध होते हैं जिसमे rows और columns के रूप में cells के collection arranged होते हैं और जिनमे डाटा को को organize और manipulate हैं.यहाँ पर हम डाटा को line graph, chart और histogram के रूप में भी दर्शाया जाता है. एक्सेल में हम डाटा के अलग अलग पहलुओं से बहुत तरह के तथ्यों के साथ प्रयोग कर सकते हैं. मैन्युफैक्चरिंग इंडस्ट्री से लेकर एक छोटी दूकान, सरकारी दफ्तर हर जगह एमएस एक्सेल का उपयोग किया जाता है.जब आप किसी जॉब को ज्वाइन करते हैं और अगर उसमे आपको सिस्टम से जुड़ा कोई काम दिया जाता है तो आप समझ लेना की आप को एक्सेल का इस्तेमाल करना ही होगा.ये दफ्तरों में सबसे सामान्य रूप से प्रयोग होने वाला सॉफ्टवेयर हैं.",
+                    "liked": "none",
+                    "difficulty":"Medium",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "MS Excel जिसका पूरा नाम Microsoft Excel है जिसे केवल Excel के नाम से भी जाना जाता है। यह Microsoft Corporation के द्वारा विकसित किया गया एक Spreadsheet Program है जो Data को Tabulation Format में रखने की सुविधा प्रदान करती है। यह Microsoft Office Suite के अंतर्गत आने वाला एप्लीकेशन है।जिस प्रकार पुराने समय में डाटा को रजिस्टर पर मनुअली पेंसिल की सहायता से Row और Column बनाकर व्यवस्थित किया जाता था ठीक उसी प्रकार इलेक्ट्रॉनिक वर्कशीट (Excel) में भी डाटा को व्यवस्थित करने के लिए Row और Column बने होते है। एम एस एक्सेल डाटा को व्यवस्थित करने करने के अलावा कैलकुलेशन करने, निर्णय लेने, डाटा का ग्राफ तैयार करने, रिपोर्ट तैयार करने और वेबसाइट पर डाटा के साथ काम करने इत्यादि की सुविधा देता है।",
+                    "liked": "no",
+                    "accessed": "April 18 2021 7:50 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Intermediate",
+                    "bloomslevel":"Understand"
+                }
+            ]
+        },
+        {
+            "title": "एम एस एक्सेल की विशिष्‍टतायें",
+            "type": "default",
+            "content": [
+                {
+                    "md": "यह बहुत ही सरल और तेज है, टेबल कार्य के लिये पहले से ही सैल बने होते हैं और आप इसमें कितना भी लम्‍बा चौडा हिसाब किताब एक ही पेज पर बना सकते हो, इसलिये प्रोफेशनल काम के लिये ज्‍यादातर लोग एक्‍सल का प्रयोग करते हैं, साथ ही एक बार कोई भी फार्मूला भरने पर वह सेव हो जाता है और बार बार आप उसका प्रयोग एक कैल्‍यूलेटर की तरह कर सकते हो, लेकिन यह कैल्‍यूलेटर आपके द्वारा बनाया गया होगा, यानी एक तरह से आप के दिये गये निर्देशन में काम करेगा, जिससे आपका काम और भी सरल हो जायेगा।",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "MS Excel हम विभिन्न कार्यों के लिए यूज कर सकते है, जैसे Editing, formatting, tabulation, storing, formulating, Charting, Printing, Consolidating, Grouping और Ungrouping, communicating आदि.",
+                    "liked": "none",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "ग्राफिकल यूजर इंटरफ़ेस (Graphical user Interface)\nExcel एक GUI (Graphical user Interface) सिद्धांत पर आधारित सॉफ्टवेयर हैं अर्थात् इसके अंतर्गत यूजर एवं सॉफ्टवेयर के मध्य सूचना का आदान प्रदान चित्रों के माध्यम से होता हैं जिससे इस सॉफ्टवेयर पर आसानी से कार्य किया जा सकता हैं |्वत: पुनर्गणना (Automatic Recalculation)Excel में बनाई गई टेबल के किसी सूत्र के मान (Value) में यदि परिवर्तन किया जाता हैं तो एक्सेल स्वत: ही पुनर्गणना कर परिणाम को अपडेट कर देता हैं |फंक्शनों का प्रयोग (Use of Functions)Excel में अनेक कार्य करने के लिए पूर्व निर्मित प्रोग्राम होते हैं जिन्हें गणना के प्रयोग में लेने पर यूजर कैलकुलेशन के समय आने वाली लम्बी प्रक्रिया से बच जाता हैं और जल्द ही परिणाम प्राप्त हो जाते हैं फंक्शन अनेक प्रकार के होते हैं – गणितीय, सांख्यकीय, वित्तीय, तार्किक आदिफोर्मटिंग (Formatting)Excel वर्कबुक को आकर्षित बनाने के लिए फोर्मटिंग की सुविधा प्रदान करता हैं एक्सेल टेक्स्ट के साथ साथ Numbers, date, time आदि भी विभिन्न फॉर्मेट में डालने की अनुमति प्रदान करता हैं |'",
+                    "liked": "no",
+                    "accessed": "April 18 2021 7:50 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                }
+            ]
+        },
+        {
+            "title": "Practice Questions",
+            "type": "mcq",
+            "content": [
+                {
+                    "md": "एम एस एक्सेल 2010 में By default कितनी Sheet होती है? \n\n* 1\n* 3\n*4\n* इनमे से कोई नहीं ",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "एम एस एक्सेल  में बनने वाली शीट को निम्न में से क्या कहा जाता है ?\n\n* **डॉक्यूमेंट शीट **\n* स्प्रेड शीट \n*फाइल शीट \n* फोल्डर शीट ",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "एम एस एक्सेल  में किन्ही भी 5 स्टूडेंट की रिकॉर्ड का औसत ज्ञात करने के लिए कोनसा फार्मूला प्रयोग होता है ?\n\n* **Max**\n* Min\n*Average\n* Sum",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Medium",
+                    "level":"Intermediate",
+                    "bloomslevel":"Understand"
+                }
+            ]
+        },
+        {
+            "title": "Videos",
+            "type": "default",
+            "content": [
+                {
+                    "md": "[Video](https://www.youtube.com/watch?v=xlF9Leq34ek)",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "[Video](https://www.youtube.com/watch?v=U_JOrgDEUkE)",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                }
+            ]
+        },
+        {
+            "title": "Recommended Courses",
+            "type": "default",
+            "content": [
+                {
+                    "md": "[![Course01](assets/images/course01.png)](https://www.youtube.com/watch?v=W-krXAwqcec)",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                }
+            ]
+        }
+    ]
+}

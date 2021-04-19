@@ -1,4 +1,5 @@
 export class AvatarType {
+    name: string = 'Sita';
     avatarStyle: string = 'Circle';
     topType: string = 'Default';
     accessoriesType: string = 'Default';
@@ -15,6 +16,7 @@ export class AvatarType {
 
     constructor(t: any) {
         if (!t) return;
+        this.name = t.name;
         this.avatarStyle = t.avatarStyle;
         this.topType = t.topType;
         this.accessoriesType = t.accessoriesType;

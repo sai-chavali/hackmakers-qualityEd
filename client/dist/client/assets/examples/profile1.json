@@ -14,24 +14,6 @@
                     "difficulty":"Easy",
                     "level":"Beginner",
                     "bloomslevel":"Understand"
-                },
-                {
-                    "md": "A programming language is a formal language comprising a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms. Most programming languages consist of instructions for computers. There are programmable machines that use a set of specific instructions, rather than general programming languages. Since the early 1800s, programs have been used to direct the behavior of machines such as Jacquard looms, music boxes and player pianos.[1] The programs for these machines (such as a player piano's scrolls) did not produce different behavior in response to different inputs or conditions.",
-                    "liked": "yes",
-                    "accessed": "April 18 2021 8:00 AM +5.30",
-                    "authors": ["Herry", "Adam"],
-                    "difficulty":"Easy",
-                    "level":"Beginner",
-                    "bloomslevel":"Understand"
-                },
-                {
-                    "md": "A programming language is a formal language comprising a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms. Most programming languages consist of instructions for computers. There are programmable machines that use a set of specific instructions, rather than general programming languages. Since the early 1800s, programs have been used to direct the behavior of machines such as Jacquard looms, music boxes and player pianos.[1] The programs for these machines (such as a player piano's scrolls) did not produce different behavior in response to different inputs or conditions.",
-                    "liked": "yes",
-                    "accessed": "April 18 2021 8:00 AM +5.30",
-                    "authors": ["Herry", "Adam"],
-                    "difficulty":"Easy",
-                    "level":"Beginner",
-                    "bloomslevel":"Understand"
                 }
             ]
         },
@@ -39,14 +21,6 @@
             "title": "Learning Path",
             "type": "default",
             "content": [
-                {
-                    "md": "There are some essential steps that everybody learning a language needs to take such as studying syntax, semantics and error handling. But is this enough or is there more to learn? As you gain an understanding of the more basic ideas, you need to start to adapt to a language’s paradigm, its idiomatic usage, and then begin exploring all the available standard libraries. Only then can you start to appreciate the unique advantages and capabilities of a language over others.",
-                    "liked": "yes",
-                    "accessed": "April 18 2021 8:00 AM +5.30",
-                    "difficulty":"Easy",
-                    "level":"Beginner",
-                    "bloomslevel":"Understand"
-                },
                 {
                     "md": "There are some essential steps that everybody learning a language needs to take such as studying syntax, semantics and error handling. But is this enough or is there more to learn? As you gain an understanding of the more basic ideas, you need to start to adapt to a language’s paradigm, its idiomatic usage, and then begin exploring all the available standard libraries. Only then can you start to appreciate the unique advantages and capabilities of a language over others.",
                     "liked": "yes",

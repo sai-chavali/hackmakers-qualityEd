@@ -1,43 +1,46 @@
 {
-    "title": "Foo Bar",
+    "title": "Programming Language",
     "lang": "en-us",
     "content": [
         {
-            "title": "Introduction",
+            "title": "Introduction of Programming Language",
             "type": "default",
             "content": [
                 {
-                    "md": "Lorem ipsum dolor sit amet, **consectetur** adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint [occaecat cupidatat](https://example.com) non proident, *sunt* in culpa qui officia deserunt mollit anim id est laborum.",
+                    "md": "A programming language is a formal language comprising a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms. Most programming languages consist of instructions for computers. There are programmable machines that use a set of specific instructions, rather than general programming languages. Since the early 1800s, programs have been used to direct the behavior of machines such as Jacquard looms, music boxes and player pianos.[1] The programs for these machines (such as a player piano's scrolls) did not produce different behavior in response to different inputs or conditions.",
                     "liked": "yes",
                     "accessed": "April 18 2021 8:00 AM +5.30",
-                    "authors": ["Ravi", "Harry"],
+                    "authors": ["Herry", "Adam"],
                     "difficulty":"Easy",
                     "level":"Beginner",
                     "bloomslevel":"Understand"
                 },
                 {
-                    "md": "blah blah blah",
-                    "liked": "none",
-                    "difficulty":"Medium",
+                    "md": "A programming language is a formal language comprising a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms. Most programming languages consist of instructions for computers. There are programmable machines that use a set of specific instructions, rather than general programming languages. Since the early 1800s, programs have been used to direct the behavior of machines such as Jacquard looms, music boxes and player pianos.[1] The programs for these machines (such as a player piano's scrolls) did not produce different behavior in response to different inputs or conditions.",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "authors": ["Herry", "Adam"],
+                    "difficulty":"Easy",
                     "level":"Beginner",
                     "bloomslevel":"Understand"
                 },
                 {
-                    "md": "blah blah blah",
-                    "liked": "no",
-                    "accessed": "April 18 2021 7:50 AM +5.30",
+                    "md": "A programming language is a formal language comprising a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms. Most programming languages consist of instructions for computers. There are programmable machines that use a set of specific instructions, rather than general programming languages. Since the early 1800s, programs have been used to direct the behavior of machines such as Jacquard looms, music boxes and player pianos.[1] The programs for these machines (such as a player piano's scrolls) did not produce different behavior in response to different inputs or conditions.",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "authors": ["Herry", "Adam"],
                     "difficulty":"Easy",
-                    "level":"Intermediate",
+                    "level":"Beginner",
                     "bloomslevel":"Understand"
                 }
             ]
         },
         {
-            "title": "Definition",
+            "title": "Learning Path",
             "type": "default",
             "content": [
                 {
-                    "md": "blah blah blah",
+                    "md": "There are some essential steps that everybody learning a language needs to take such as studying syntax, semantics and error handling. But is this enough or is there more to learn? As you gain an understanding of the more basic ideas, you need to start to adapt to a language’s paradigm, its idiomatic usage, and then begin exploring all the available standard libraries. Only then can you start to appreciate the unique advantages and capabilities of a language over others.",
                     "liked": "yes",
                     "accessed": "April 18 2021 8:00 AM +5.30",
                     "difficulty":"Easy",
@@ -45,16 +48,9 @@
                     "bloomslevel":"Understand"
                 },
                 {
-                    "md": "blah blah blah",
-                    "liked": "none",
-                    "difficulty":"Easy",
-                    "level":"Beginner",
-                    "bloomslevel":"Understand"
-                },
-                {
-                    "md": "blah blah blah",
-                    "liked": "no",
-                    "accessed": "April 18 2021 7:50 AM +5.30",
+                    "md": "There are some essential steps that everybody learning a language needs to take such as studying syntax, semantics and error handling. But is this enough or is there more to learn? As you gain an understanding of the more basic ideas, you need to start to adapt to a language’s paradigm, its idiomatic usage, and then begin exploring all the available standard libraries. Only then can you start to appreciate the unique advantages and capabilities of a language over others.",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
                     "difficulty":"Easy",
                     "level":"Beginner",
                     "bloomslevel":"Understand"
@@ -66,7 +62,7 @@
             "type": "mcq",
             "content": [
                 {
-                    "md": "What is the capital of India?\n\n* Delhi\n* Mumbai\n*Kolkata\n* Chennai",
+                    "md": "Identify the incorrect file opening mode from the following.?\n\n* r\n* w\n*x\n* a",
                     "liked": "yes",
                     "accessed": "April 18 2021 8:00 AM +5.30",
                     "difficulty":"Easy",
@@ -74,7 +70,7 @@
                     "bloomslevel":"Understand"
                 },
                 {
-                    "md": "What is the capital of India?\n\n* **Delhi**\n* Mumbai\n*Kolkata\n* Chennai",
+                    "md": "Which is not a programming language ?\n\n* **C**\n* C++ \n*Idle\n* Java",
                     "liked": "yes",
                     "accessed": "April 18 2021 8:00 AM +5.30",
                     "difficulty":"Easy",
@@ -82,7 +78,7 @@
                     "bloomslevel":"Understand"
                 },
                 {
-                    "md": "What is the capital of India?\n\n* **Delhi**\n* Mumbai\n*Kolkata\n* Chennai",
+                    "md": "Which Langauge is widely used for analytics ?\n\n* **C**\n* Java\n*Shell Scripting\n* Python",
                     "liked": "yes",
                     "accessed": "April 18 2021 8:00 AM +5.30",
                     "difficulty":"Easy",
@@ -92,11 +88,11 @@
             ]
         },
         {
-            "title": "Videos",
+            "title": "Illustrations",
             "type": "default",
             "content": [
                 {
-                    "md": "[Video](https://www.youtube.com/watch?v=rfscVS0vtbw)",
+                    "md": "![Image](https://i.pinimg.com/564x/d0/6e/5d/d06e5d3d0d1bafd14e4f17f2310851dd.jpg)",
                     "liked": "yes",
                     "accessed": "April 18 2021 8:00 AM +5.30",
                     "difficulty":"Easy",
@@ -104,7 +100,7 @@
                     "bloomslevel":"Understand"
                 },
                 {
-                    "md": "[Video](https://www.youtube.com/watch?v=VwVg9jCtqaU)",
+                    "md": "![Image](https://thumbs.dreamstime.com/z/programmer-infographics-flat-layout-professional-education-presentation-information-programming-mobile-apps-73375666.jpg)",
                     "liked": "yes",
                     "accessed": "April 18 2021 8:00 AM +5.30",
                     "difficulty":"Easy",
@@ -114,11 +110,19 @@
             ]
         },
         {
-            "title": "Recommended Courses",
+            "title": "Recommended Books",
             "type": "default",
             "content": [
                 {
-                    "md": "[![Course01](assets/images/course01.png)](https://www.coursera.org/specializations/python)",
+                    "md": "[![Course01](assets/images/profile_1_course01.png)](http://www.aimt.edu.in/wp-content/uploads/2016/12/Basic-Programming.pdf)",
+                    "liked": "yes",
+                    "accessed": "April 18 2021 8:00 AM +5.30",
+                    "difficulty":"Easy",
+                    "level":"Beginner",
+                    "bloomslevel":"Understand"
+                },
+                {
+                    "md": "[![Course02](assets/images/profile_1_course02.jpeg)](https://www.cs.princeton.edu/courses/archive/fall18/cos126/lectures/CS.1.Basics-2x2.pdf)",
                     "liked": "yes",
                     "accessed": "April 18 2021 8:00 AM +5.30",
                     "difficulty":"Easy",

@@ -1,5 +1,6 @@
 [
     {
+        "name":"Sita",
         "avatarStyle": "Circle",
         "topType": "LongHairMiaWallace",
         "accessoriesType": "Prescription02",
@@ -13,6 +14,7 @@
         "skinColor": "Light"
     },
     {
+        "name":"Rohan",
         "avatarStyle": "Circle",
         "topType": "NoHair",
         "accessoriesType": "Prescription02",
@@ -25,6 +27,7 @@
         "skinColor": "Brown"
     },
     {
+        "name":"Rehana",
         "avatarStyle": "Circle",
         "topType": "Hijab",
         "accessoriesType": "Round",
@@ -36,6 +39,7 @@
         "skinColor": "Light"
     },
     {
+        "name":"Singh",
         "avatarStyle": "Circle",
         "topType": "Turban",
         "accessoriesType": "Blank",
@@ -49,6 +53,7 @@
         "skinColor": "Light"
     },
     {
+        "name":"Gopal",
         "avatarStyle": "Circle",
         "topType": "WinterHat3",
         "accessoriesType": "Blank",
@@ -63,6 +68,7 @@
         "skinColor": "Light"
     },
     {
+        "name":"Radha",
         "avatarStyle": "Circle",
         "topType": "LongHairBigHair",
         "accessoriesType": "Blank",
