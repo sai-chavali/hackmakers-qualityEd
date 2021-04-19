@@ -25,7 +25,19 @@ export class PageComponent implements OnInit {
     });
   }
 
-  showinfo(md: string) {
+  showinfo() {
+    let md: string = `
+# Learn Your Way
+
+The suggested content is suited to **your individual learning profile**.
+
+You can go through each content and write your own understanding. 
+You can share your understanding with the world or anyone to get feedback.
+
+As you write, prepare video or podcasts, practice and as you get feedbacks you earn reward points that you can redeem towards subscription or special trainings. 
+
+**If your contribution is novel** you will earn even more reward points.
+    `;
     this.dialog.open(MarkdownActionDialog, {
       data: { markdown: md }
     });

@@ -37,9 +37,10 @@
         <mat-tab>
             <app-markdown-input class="form-element" [imageupload]="true" [large]="true"
                 [viewas]="content.type"
-                placeholder="Share with the world your best"
+                placeholder="Write your own understanding"
                 [value]="markdown" (onchange)="markdown=$event">
             </app-markdown-input>
+            <button mat-raised-button color="primary" [disabled]="!markdown">Submit</button>
         </mat-tab>
 
     </mat-tab-group>
