@@ -14,9 +14,14 @@
     grid-template-columns: 1fr;
   }
 
-  img{
+  .profile_pic{
       align-self: center;
       border-radius: 50%;
+      justify-self: center;
+  }
+
+  .demo{
+      width: 100%;
       justify-self: center;
   }
   
