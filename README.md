@@ -1,5 +1,8 @@
 # hackmakers-qualityEd
-Project for helping disabled people in online learning
+
+[DEMO](http://140.238.251.159/)
+
+Project for helping disadvantaged people in online learning
 
 Prerequisites: Nodejs and Angular CLI
 
