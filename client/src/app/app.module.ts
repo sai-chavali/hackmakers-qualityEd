@@ -18,6 +18,7 @@ import { HomeComponent } from './home/home.component';
 import { AngularTypewriterEffectModule } from 'angular-typewriter-effect';
 import { NgParticlesModule } from 'ng-particles';
 import { MaterialComponentsModule } from './material-components.module';
+import { AbotComponent } from './abot/abot.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { MaterialComponentsModule } from './material-components.module';
     SpinnerComponent,
     SigninComponent,
     AvataarComponent,
-    HomeComponent
+    HomeComponent,
+    AbotComponent
   ],
   imports: [
     BrowserModule,

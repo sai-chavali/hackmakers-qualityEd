@@ -8,3 +8,15 @@ iframe{
     grid-column-end: -1;
     justify-self: end;
 }
+
+.avatar{
+    // z-index: 9999999999999999999999 !important;
+    // position: fixed;
+    // right: 0;
+    // bottom: 0;
+    transform: scale(0.3);
+    transform-origin: right bottom;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}

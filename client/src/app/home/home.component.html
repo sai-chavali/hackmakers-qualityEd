@@ -14,8 +14,9 @@
     <div class="avatars" fxLayout="column" fxLayoutAlign="center center">
         <div *ngIf="currentavatar$ | async as currentavatar; else selectavatar">
             <app-avatar [avatarType]="currentavatar"></app-avatar>
-            <iframe class="m-w-100" src="https://www.smatbot.com/kya_backend/share?code=Personal_Assistant_7221"
-            style="border:0;" width="400" height="500"></iframe>
+            <!-- <h2>WELCOME</h2> -->
+            <!-- <iframe class="m-w-100" src="https://www.smatbot.com/kya_backend/share?code=Personal_Assistant_7221"
+            style="border:0;" width="400" height="500"></iframe> -->
         </div>
         <ng-template #selectavatar>
             <h1>Select an Assistant</h1>
