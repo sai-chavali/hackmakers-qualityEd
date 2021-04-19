@@ -1,8 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 /* You can add global styles to this file, and also import other style files */
 
-@import '~katex/dist/katex.css';
+// @import '~katex/dist/katex.css';
+@import '~@angular/material/theming';
+// @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,700;1,900&display=swap');
 
+
+$custom-typography: mat-typography-config(
+        $font-family: 'Circular-Medium, sans-serif',
+        $headline: mat-typography-level(30px, 48px, 700, 'Fredoka One, cursive'),
+        $title: mat-typography-level(20px, 32px, 500 'Fredoka One, cursive'),
+        $body-1: mat-typography-level(16px, 24px, 300, 'Circular-Regular, sans-serif'),
+);
+@include mat-core($custom-typography);
 html,
 body {
     height: 100%;

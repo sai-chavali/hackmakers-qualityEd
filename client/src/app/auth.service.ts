@@ -93,11 +93,12 @@ export class AuthService {
             name: displayName,
             email: email,
             given_name: firstName,
-            family_name: lastName
+            family_name: lastName,
+            photoUrl: profile_pic
         } = profile as any;
 
         return this.httpService.post<{ user: User, nextUserAction: 'NEW_USER' | 'EXISTING_USER' }>('user/login', {
-            userId:11,
+            profile_pic,
             displayName,
             email,
             firstName,

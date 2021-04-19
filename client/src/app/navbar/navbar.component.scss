@@ -1,0 +1,32 @@
+.menu-spacer {
+    flex: 1 1 auto;
+}
+
+.row {
+    padding: 0;
+    min-height: inherit;
+  }
+
+  .row > *:first-child {
+    margin-left: 5%;
+  }
+  
+  .row > *:last-child {
+    margin-right: 5%;
+  }
+
+
+.toolbar {
+    background: white;
+    border-bottom: 1px solid rgba(175, 175, 175, 0.66);
+    max-height: 80px;
+    min-height: 80px;
+    max-width: 100vw;
+  }
+
+  .user-profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    column-gap: 10px;
+  }

@@ -1,0 +1,14 @@
+<mat-toolbar class="toolbar">
+    <mat-toolbar-row class="row">
+        <div routerLink="/" class="logo">
+            <h2>Hansa</h2>
+        </div>
+        <span class="menu-spacer"></span>
+        <!-- <app-search class="search-form"></app-search> -->
+        <span class="menu-spacer"></span>
+        <div *ngIf="userData$ | async as userData;" class="user-profile">
+            <img [src]="userData.PROFILE_PIC" style="width:30%">
+            <span class="grey-text">{{userData.NAME}}</span>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>

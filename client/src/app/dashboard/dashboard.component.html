@@ -1,0 +1,27 @@
+<div class="content">
+    <app-user-info></app-user-info>
+    <mat-tab-group class="tab-group">
+        <mat-tab label="COURSES">
+            <!-- <app-courses [initCourses$]="pageOneLearningCourses$"></app-courses> -->
+            <!--            spacer-->
+            <!-- <div style="padding: 10px"></div> -->
+            <app-course-suggestions></app-course-suggestions>
+            <div class="spacer"></div>
+        </mat-tab>
+        <mat-tab label="CERTIFICATES">
+            <app-courses-taken></app-courses-taken>
+            <div class="spacer"></div>
+        </mat-tab>
+        <mat-tab label="MY STATS">
+            <ng-template matTabContent>
+                <app-stats></app-stats>
+            </ng-template>
+            <div class="spacer"></div>
+        </mat-tab>
+        <mat-tab label="LEADERBOARD">
+            <app-leaderboard></app-leaderboard>
+            <div class="spacer"></div>
+        </mat-tab>
+    </mat-tab-group>
+</div>
+<div class="charts-right"></div>

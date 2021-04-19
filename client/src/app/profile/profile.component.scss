@@ -1,0 +1,43 @@
+.back-link {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .form-item {
+    padding: 0.5rem;
+    justify-self: center;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  img{
+      align-self: center;
+      border-radius: 50%;
+      justify-self: center;
+  }
+  
+  
+  @media (max-width: 500px) {
+    mat-form-field {
+      width: 100%;
+    }
+  
+    .saveButton {
+      width: 100%;
+    }
+  
+    .form-item {
+      justify-self: stretch;
+    }
+  
+    .logoutButton {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  
+  
