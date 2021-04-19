@@ -8,7 +8,7 @@ import { Content } from 'src/app/services/page';
 })
 export class ContentComponent implements OnInit  {
   @Input() content!: Content;
-  
+  markdown = "";
   selectedindex = 0;
   //progressinterval: any;
 

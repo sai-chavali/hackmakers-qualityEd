@@ -37,6 +37,7 @@ export class AvataarComponent implements OnChanges, AfterViewInit, OnDestroy {
   }
 
   private render() {
+    if(!this.avatarType) return;
     const p: Props = {
       avatarStyle: this.avatarType.avatarStyle,
       topType: this.avatarType.topType,

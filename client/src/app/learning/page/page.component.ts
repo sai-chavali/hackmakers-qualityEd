@@ -1,5 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
+import { take } from 'rxjs/operators';
 import { DataService } from 'src/app/services/data.service';
 import { Page } from 'src/app/services/page';
 
@@ -9,13 +11,16 @@ import { Page } from 'src/app/services/page';
   styleUrls: ['./page.component.scss']
 })
 export class PageComponent implements OnInit {
-  @Input() name!: string;
+  name!: string;
   public page$!: Observable<Page>;
-  constructor(private dataService: DataService) {
+  constructor(private dataService: DataService, private route: ActivatedRoute) {
   }
 
   ngOnInit(): void {
-    this.page$ = this.dataService.getPage(this.name);
+    this.route.params.pipe(take(1)).subscribe(params => {
+      this.name = params['pageid'];
+      this.page$ = this.dataService.getPage(this.name);
+    });
   }
 
 }

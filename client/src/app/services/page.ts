@@ -8,7 +8,10 @@ export interface TinyContent {
 export interface Content {
     title: string;
     type: string;
-    content: Array<TinyContent>
+    content: Array<TinyContent>;
+    difficulty: string;
+    level: string;
+    bloomslevel: string;
 }
 
 export interface Page {

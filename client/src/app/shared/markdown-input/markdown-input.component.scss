@@ -1,0 +1,77 @@
+.toolbar {
+    color: #555;
+}
+
+.textarea {
+    font-size: 100%;
+    line-height: 1.25;
+    margin: 0;
+    padding: 10px;
+    border: px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+}
+
+.action {
+    position: relative;
+    button {
+        box-shadow: none;
+    }
+    .progress {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        pointer-events: none;
+    }
+    .expansion {
+        position: absolute;
+        z-index: 1000;
+        width: 40px;
+    }
+}
+
+.editor {
+    text-align: justify;
+    width: 100%;
+    min-height: 100px;
+}
+
+.large {
+    min-height: 150px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.fullscreen {
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    padding: 10px;
+    box-sizing: border-box;
+
+    .toolbarfixed {
+        position: fixed;
+        background-color: #fafafa;
+        z-index: 9999;
+        top: 0;
+        width: 100%;
+        border-bottom: 1px solid #999;
+        margin: 0 -30px;
+
+        .viewformatted {
+            position: fixed;
+            right: 5px;
+        }
+    }
+
+    
+}
+
