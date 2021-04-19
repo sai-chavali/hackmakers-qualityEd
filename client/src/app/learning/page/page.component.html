@@ -1,15 +1,21 @@
 <div *ngIf="page$ | async as page">
     <mat-toolbar>
         <img src="assets/images/hamsa.svg" height="40px">
-       <h1>Topic: {{page.title}}</h1>
-       <span class="spacer"></span>
-       <button class="menubtn" mat-icon-button aria-label="like">
-         <mat-icon>favorite</mat-icon>
-       </button>
-       <button class="menubtn"  mat-icon-button aria-label="share">
-        <mat-icon>share</mat-icon>
-      </button>
-     </mat-toolbar>
+        <h1>Topic: {{page.title}}</h1>
+        <span class="spacer"></span>
+
+        <a class="menubtn" mat-icon-button aria-label="share" [routerLink]="['/dashboard']">
+            <mat-icon>dashboard</mat-icon>
+        </a>
+
+        <button class="menubtn" mat-icon-button aria-label="like">
+            <mat-icon>favorite</mat-icon>
+        </button>
+        <button class="menubtn" mat-icon-button aria-label="share">
+            <mat-icon>share</mat-icon>
+        </button>
+
+    </mat-toolbar>
 
     <app-content *ngFor="let content of page.content" [content]="content"></app-content>
 </div>

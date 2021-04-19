@@ -1,0 +1,10 @@
+<!--TITLE is expected to be single line. Long titles are killing small screen performance-->
+<!-- <h1 mat-dialog-title>{{data.title}}</h1> -->
+<div mat-dialog-content class="details">
+    <h1 *ngIf="!!data.title" class="title">{{data.title}}</h1>
+    <div class="md" [innerHTML]="data.markdown | marked | safeHtml"></div>
+</div>
+<div mat-dialog-actions>
+    <button aria-label="select dialog action" *ngFor="let action of data.actions" mat-button (click)="click(action)">{{action}}</button>
+    <button aria-label="close dialog" mat-button [mat-dialog-close]="false" cdkFocusInitial>Close</button>
+</div>

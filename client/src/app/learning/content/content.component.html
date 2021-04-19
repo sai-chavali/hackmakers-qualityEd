@@ -23,6 +23,7 @@
             <div class="tab">
                 <div class="md" [innerHTML]="tab.md | marked:content.type | safeHtml">
                 </div>
+                <button mat-raised-button color="primary" *ngIf="content.type == 'mcq'">Submit</button>
                 <app-rating class="meta" [status]="tab.liked"></app-rating>
                 <span *ngIf="tab.accessed"><span class="meta">accessed:</span><span class="value">{{tab.accessed |
                         date:'medium'}}</span></span>

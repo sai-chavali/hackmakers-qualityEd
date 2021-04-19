@@ -6,6 +6,7 @@ import { MaterialComponentsModule } from '../material-components.module';
 import { PageComponent } from './page/page.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { RatingComponent } from './rating/rating.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -19,7 +20,8 @@ import { RatingComponent } from './rating/rating.component';
     CommonModule,
     SharedModule,
     MaterialComponentsModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    RouterModule
   ],
   exports: [
     PageComponent
